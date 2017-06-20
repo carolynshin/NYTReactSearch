@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New York Times Article Scrubber</title>
+
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!--style to fix the issue of text extending past panel length -->
+	<style>
+	.panel-body a {
+	word-break: break-all;
+	}
+	</style>
+
+	<!-- jquery-->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	
+</head>
+<body>
+	
+	<!-- where React will deploy contents it generates -->
+	<div id="root"></div>
+	<!-- JS code transpiled in this filego  -->
+	<script src="bundle.js"></script>
+	
+</body>
+</html>
